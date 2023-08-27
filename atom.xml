@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://8706141.github.io</id>
+    <title>工作台</title>
+    <updated>2023-08-27T09:15:57.555Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://8706141.github.io"/>
+    <link rel="self" href="https://8706141.github.io/atom.xml"/>
+    <subtitle>751837878@qq.com   8706141@gmail.com</subtitle>
+    <logo>https://8706141.github.io/images/avatar.png</logo>
+    <icon>https://8706141.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 工作台</rights>
+    <entry>
+        <title type="html"><![CDATA[把CF的Workers免费节点IP固定]]></title>
+        <id>https://8706141.github.io/post/ba-cf-de-workers-mian-fei-jie-dian-ip-gu-ding/</id>
+        <link href="https://8706141.github.io/post/ba-cf-de-workers-mian-fei-jie-dian-ip-gu-ding/">
+        </link>
+        <updated>2023-08-27T09:15:20.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[获取任意网站的图标，标题栏logo，网站logo]]></title>
+        <id>https://8706141.github.io/post/huo-qu-ren-yi-wang-zhan-de-tu-biao-biao-ti-lan-logowang-zhan-logo/</id>
+        <link href="https://8706141.github.io/post/huo-qu-ren-yi-wang-zhan-de-tu-biao-biao-ti-lan-logowang-zhan-logo/">
+        </link>
+        <updated>2023-08-22T23:57:24.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown 字体格式]]></title>
+        <id>https://8706141.github.io/post/markdown-zi-ti-ge-shi/</id>
+        <link href="https://8706141.github.io/post/markdown-zi-ti-ge-shi/">
+        </link>
+        <updated>2023-08-21T13:48:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gridea同步失败解决方案]]></title>
+        <id>https://8706141.github.io/post/gridea-tong-bu-shi-bai-jie-jue-fang-an/</id>
+        <link href="https://8706141.github.io/post/gridea-tong-bu-shi-bai-jie-jue-fang-an/">
+        </link>
+        <updated>2023-08-21T13:35:50.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI网站]]></title>
+        <id>https://8706141.github.io/post/ai-wang-zhan/</id>
+        <link href="https://8706141.github.io/post/ai-wang-zhan/">
+        </link>
+        <updated>2023-08-21T12:30:31.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[梦想综合搜索]]></title>
+        <id>https://8706141.github.io/post/meng-xiang-zong-he-sou-suo/</id>
+        <link href="https://8706141.github.io/post/meng-xiang-zong-he-sou-suo/">
+        </link>
+        <updated>2023-08-20T06:27:33.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[计算器]]></title>
+        <id>https://8706141.github.io/post/ji-suan-qi/</id>
+        <link href="https://8706141.github.io/post/ji-suan-qi/">
+        </link>
+        <updated>2023-08-19T22:07:25.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[简单一招能让你的浏览器下载速度提升几十倍，从此弃用IDM等下载器]]></title>
+        <id>https://8706141.github.io/post/jian-dan-yi-zhao-neng-rang-ni-de-liu-lan-qi-xia-zai-su-du-ti-sheng-ji-shi-bei-cong-ci-qi-yong-idm-deng-xia-zai-qi/</id>
+        <link href="https://8706141.github.io/post/jian-dan-yi-zhao-neng-rang-ni-de-liu-lan-qi-xia-zai-su-du-ti-sheng-ji-shi-bei-cong-ci-qi-yong-idm-deng-xia-zai-qi/">
+        </link>
+        <updated>2023-08-19T14:12:01.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[梦想综合导航]]></title>
+        <id>https://8706141.github.io/post/meng-xiang-zong-he-dao-hang/</id>
+        <link href="https://8706141.github.io/post/meng-xiang-zong-he-dao-hang/">
+        </link>
+        <updated>2023-08-19T14:11:01.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搜索引擎]]></title>
+        <id>https://8706141.github.io/post/sousuo/</id>
+        <link href="https://8706141.github.io/post/sousuo/">
+        </link>
+        <updated>2023-08-19T14:02:54.000Z</updated>
+    </entry>
+</feed>

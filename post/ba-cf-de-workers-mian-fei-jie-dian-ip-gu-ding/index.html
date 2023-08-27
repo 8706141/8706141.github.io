@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>把CF的Workers免费节点IP固定 | 工作台</title>
+<link rel="shortcut icon" href="https://8706141.github.io/favicon.ico">
+<link href="https://8706141.github.io/styles/main.css" rel="stylesheet">
+<link href="//at.alicdn.com/t/font_1678829_7cn41ho9lyt.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="工作台 » Feed" href="https://8706141.github.io/atom.xml">
+        <meta name="description" content="一、介绍2种workers搭建veless节点代码
+https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js
+https://github.com/Misaka-b..." />
+        <meta name="keywords" content="" />
+        <!-- OG -->
+        <meta property="og:locale" content="zh_CN">
+        <meta property="og:title" content="把CF的Workers免费节点IP固定" />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="一、介绍2种workers搭建veless节点代码
+https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js
+https://github.com/Misaka-b...">
+        <meta property="og:url" content="https://8706141.github.io/post/ba-cf-de-workers-mian-fei-jie-dian-ip-gu-ding/" />
+        <meta property="og:site_name" content="工作台">
+        <meta property="og:updated_time" content="2023-08-27">
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="">
+        <meta property="og:image:alt" content="把CF的Workers免费节点IP固定">
+        <!-- Twitter (post.ejs) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="把CF的Workers免费节点IP固定">
+        <meta name="twitter:description" content="一、介绍2种workers搭建veless节点代码
+https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js
+https://github.com/Misaka-b...">
+        <!-- <meta name="twitter:site" content="@WBoy0609">
+        <meta name="twitter:creator" content="@WBoy0609"> -->
+        <meta name="twitter:image" content="">
+</head>
+
+<body>
+    <div class="main animated">
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <a href="https://8706141.github.io">工作台</a>
+        </div>
+    </div>
+    <div class="my_socials">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        <a href="https://8706141.github.io/atom.xml" target="_blank"><i class="iconfont icon-rss"></i></a>
+    </div>
+</div>
+
+    <div class="header_menu">
+        
+            
+                <a href="https://8706141.github.io/post/ji-suan-qi" class="menu">计算器</a>
+            
+        
+            
+                <a href="/archives" class="menu">文章列表</a>
+            
+        
+            
+                <a href="/tags" class="menu">标签</a>
+            
+        
+            
+                <a href="https://www.bidianer.com/" class="menu" target="_blank">笔点导航</a>
+            
+        
+            
+                <a href="https://drive.google.com/drive/u/0/my-drive" class="menu" target="_blank">谷歌云盘</a>
+            
+        
+            
+                <a href="https://github.com/" class="menu" target="_blank">github</a>
+            
+        
+        <div class="gridea-search-div">
+            <form id="gridea-search-form" action="https://8706141.github.io/search/">
+                <input class="gridea-search-input" autocomplete="off" spellcheck="false" name="q"/>
+            </form>
+        </div>
+    </div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+                    <div class="post_page">
+                        <div class="post animated fadeInDown">
+                            <div class="post_title post_detail_title">
+                                <h2>
+                                    把CF的Workers免费节点IP固定
+                                </h2>
+                                <span class="article-info">
+                                    2023-08-27, 1434 words, 6 min read
+                                </span>
+                            </div>
+                            <div class="post_content markdown">
+                                <p class="md_block">
+                                    <span class="md_line md_line_start md_line_end">
+                                        <p>一、介绍2种workers搭建veless节点代码<br>
+https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js</p>
+<p>https://github.com/Misaka-blog/cf-wkrs-pages-vless/blob/main/_worker.js</p>
+<p>二、介绍2种IP测速工具：<br>
+https://github.com/XIU2/CloudflareSpeedTest</p>
+<p>https://github.com/badafans/better-cloudflare-ip</p>
+<p>前者给没有配置反代CF的IP,需要自己去添加。后者代码配置了反代CF的IP，可直接使用。而且作者还对域名进行了伪装。</p>
+<p>三、获得worker代码中的反代CF的IP：<br>
+1.zip.baipiao.eu.org</p>
+<p>2.Telegram频道：https://t.me/cf_push  有某大佬维护。</p>
+<p>四、优选反代CF的IP。<br>
+1.以反代CF的IP，群组为例把所有IP文件合并：<br>
+新建txt文件，输入type *.txt&gt;&gt;all.txt</p>
+<p>重命名bat后运行。合并完成。</p>
+<p>2把反代CF的IP所在地区查询下载出来：<br>
+https://reallyfreegeoip.org/bulk  在excel表中筛选想要的地区，并拷贝到txt文件</p>
+<p>五、利用优先测速工具CloudflareSpeedTest工具进行优选<br>
+注意一些参数的使用,比如：</p>
+<p>CloudflareST.exe -url https://cfspeed1.kkiyomi.top/200mb.bin -tl 250 -sl 10 -tlr 0.10 -f tokyo.txt<br>
+表示启动cloudflare工具，利用https://cfspeed1.kkiyomi.top/200mb.bin测速地址测速。延迟上限是250,最低速度10M,丢包率小于0.1，针对toyko.txt文件内IP测速。</p>
+<p>以上命令只是一个举例，如果测速时速度为零，可能是测速地址失效，请去github查看大佬们共享的测速地址，讨论区为https://github.com/XIU2/CloudflareSpeedTest/issues/168</p>
+<p>六、优选CF的高速IP节点<br>
+1.打开fofa网站搜索<br>
+server=&quot;cloudflare&quot; &amp;&amp; country=&quot;JP&quot; &amp;&amp; city=&quot;Tokyo&quot; &amp;&amp; port=&quot;443&quot;</p>
+<p>（ 意思是筛选CF的IP，国家是日本，地区是东京，端口443）</p>
+<p>2.把筛选结果下载下来，期间需要注册fofa帐号，可用临时邮箱。<br>
+3.在excle表进行筛选，把某个地区的CF的ip拷贝到txt文件里。<br>
+4.进行利用优选测速工具进行筛选<br>
+参数：<br>
+-n 200<br>
+延迟测速线程；越多延迟测速越快，性能弱的设备 (如路由器) 请勿太高；(默认 200 最多 1000)<br>
+-t 4<br>
+延迟测速次数；单个 IP 延迟测速的次数；(默认 4 次)<br>
+-dn 10<br>
+下载测速数量；延迟测速并排序后，从最低延迟起下载测速的数量；(默认 10 个)<br>
+-dt 10<br>
+下载测速时间；单个 IP 下载测速最长时间，不能太短；(默认 10 秒)<br>
+-tp 443<br>
+指定测速端口；延迟测速/下载测速时使用的端口；(默认 443 端口)<br>
+-url https://cf.xiu2.xyz/url<br>
+指定测速地址；延迟测速(HTTPing)/下载测速时使用的地址，默认地址不保证可用性，建议自建；<br>
+-httping<br>
+切换测速模式；延迟测速模式改为 HTTP 协议，所用测试地址为 [-url] 参数；(默认 TCPing)<br>
+注意：HTTPing 本质上也算一种 网络扫描 行为，因此如果你在服务器上面运行，需要降低并发(-n)，否则可能会被一些严格的商家暂停服务。<br>
+如果你遇到 HTTPing 首次测速可用 IP 数量正常，后续测速越来越少甚至直接为 0，但停一段时间后又恢复了的情况，那么也可能是被 运营商、Cloudflare CDN 认为你在网络扫描而 触发临时限制机制，因此才会过一会儿就恢复了，建议降低并发(-n)减少这种情况的发生。<br>
+-httping-code 200<br>
+有效状态代码；HTTPing 延迟测速时网页返回的有效 HTTP 状态码，仅限一个；(默认 200 301 302)<br>
+-cfcolo HKG,KHH,NRT,LAX,SEA,SJC,FRA,MAD<br>
+匹配指定地区；地区名为当地机场三字码，英文逗号分隔，支持小写，支持 Cloudflare、AWS CloudFront，仅 HTTPing 模式可用；(默认 所有地区)<br>
+-tl 200<br>
+平均延迟上限；只输出低于指定平均延迟的 IP，各上下限条件可搭配使用；(默认 9999 ms)<br>
+-tll 40<br>
+平均延迟下限；只输出高于指定平均延迟的 IP；(默认 0 ms)<br>
+-tlr 0.2<br>
+丢包几率上限；只输出低于/等于指定丢包率的 IP，范围 0.00~1.00，0 过滤掉任何丢包的 IP；(默认 1.00)<br>
+-sl 5<br>
+下载速度下限；只输出高于指定下载速度的 IP，凑够指定数量 [-dn] 才会停止测速；(默认 0.00 MB/s)<br>
+-p 10<br>
+显示结果数量；测速后直接显示指定数量的结果，为 0 时不显示结果直接退出；(默认 10 个)<br>
+-f ip.txt<br>
+IP段数据文件；如路径含有空格请加上引号；支持其他 CDN IP段；(默认 ip.txt)<br>
+-ip 1.1.1.1,2.2.2.2/24,2606:4700::/32<br>
+指定IP段数据；直接通过参数指定要测速的 IP 段数据，英文逗号分隔；(默认 空)<br>
+-o result.csv<br>
+写入结果文件；如路径含有空格请加上引号；值为空时不写入文件 [-o &quot;&quot;]；(默认 result.csv)<br>
+-dd<br>
+禁用下载测速；禁用后测速结果会按延迟排序 (默认按下载速度排序)；(默认 启用)<br>
+-allip<br>
+测速全部的IP；对 IP 段中的每个 IP (仅支持 IPv4) 进行测速；(默认 每个 /24 段随机测速一个 IP)<br>
+-v<br>
+打印程序版本 + 检查版本更新<br>
+-h<br>
+打印帮助说明<br>
+七、把得到的反代CF的IP和Cf的IP填到对应的位置<br>
+八、在ip.gs网站查看ip位置，并测速。发现IP固定了在某一个地区，而且速度可跑满你的带宽！<br>
+最后，详细步骤去看我的youtube频道。谢谢大家！</p>
+<p>关于这workers搭建CDN免费节点IP固定问题的完整用法，可以去我的youtube频道查看！</p>
+<br />
+                                            
+                                </p>
+                            </div>
+                            <div class="post_footer">
+                                
+                                        
+                                            <div class="next-post" style="margin-top: 20px;">
+                                                <div class="next">下一篇</div>
+                                                <a href="https://8706141.github.io/post/huo-qu-ren-yi-wang-zhan-de-tu-biao-biao-ti-lan-logowang-zhan-logo/">
+                                                    <h3 class="post-title">
+                                                        获取任意网站的图标，标题栏logo，网站logo
+                                                    </h3>
+                                                </a>
+                                            </div>
+                                            
+                            </div>
+                        </div>
+                        
+                            
+                                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container" style="padding-bottom: 20px;"></div>
+<script>
+    var pageId = (location.pathname).substring(1, 49) // Ensure uniqueness and length less than 50
+    pageId = pageId.endsWith('/') ? pageId.slice(0, -1) : pageId // 以斜杠结尾则去除
+    var gitalk = new Gitalk({
+        clientID: '138a6d8a5ae48d6b2ec0',
+        clientSecret: 'fc11e6798666bc7641b85bc0a160d2f3f8e8869a',
+        repo: '8706141.github.io',
+        owner: '8706141',
+        admin: ['8706141'],
+        id: pageId,
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
+</script>
+                                    
+                                        
+                                                    
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+    
+    <div class="powered_by">
+        <a href="https://codeberg.org/kytrun/gridea-theme-one" target="_blank">Theme One,</a>
+        <a href="https://open.gridea.dev/" target="_blank">Powered by Gridea&#65281;</a>
+    </div>
+    <div class="footer_slogan">
+        751837878@qq.com   8706141@gmail.com
+    </div>
+    <div id="back_to_top" class="back_to_top">
+        <span>△</span>
+    </div>
+    
+</div>
+
+<script src="https://8706141.github.io/media/scripts/util.js"></script>
+        <link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.5.1/styles/default.min.css">
+        <script src="//unpkg.com/@highlightjs/cdn-assets@11.5.1/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+</body>
+
+</html>
